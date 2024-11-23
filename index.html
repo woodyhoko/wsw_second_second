@@ -64,305 +64,305 @@
 
       let positions = [
         // H
-        { x: -400 + 100, y: 100 - 400 }, // Top left of H
-        { x: -400 + 100, y: 300 - 400 }, // Bottom left of H
-        { x: -400 + 100, y: 200 - 400 }, // Middle point of H
-        { x: -400 + 200, y: 200 - 400 }, // Middle connection
-        { x: -400 + 200, y: 100 - 400 }, // Top right of H
-        { x: -400 + 200, y: 300 - 400 }, // Bottom right of H
+        { x: -400 + 100, y: 50 + 100 - 400 }, // Top left of H
+        { x: -400 + 100, y: 50 + 300 - 400 }, // Bottom left of H
+        { x: -400 + 100, y: 50 + 200 - 400 }, // Middle point of H
+        { x: -400 + 200, y: 50 + 200 - 400 }, // Middle connection
+        { x: -400 + 200, y: 50 + 100 - 400 }, // Top right of H
+        { x: -400 + 200, y: 50 + 300 - 400 }, // Bottom right of H
 
         // a
-        { x: -400 + 250, y: 200 - 400 }, // Start of a
-        { x: -400 + 300, y: 150 - 400 }, // Top curve
-        { x: -400 + 350, y: 200 - 400 }, // Right side
-        { x: -400 + 350, y: 300 - 400 }, // Bottom right
-        { x: -400 + 300, y: 300 - 400 }, // Bottom
-        { x: -400 + 250, y: 250 - 400 }, // Left curve
-        { x: -400 + 300, y: 200 - 400 }, // Middle connection
+        { x: -400 + 250, y: 50 + 200 - 400 }, // Start of a
+        { x: -400 + 300, y: 50 + 150 - 400 }, // Top curve
+        { x: -400 + 350, y: 50 + 200 - 400 }, // Right side
+        { x: -400 + 350, y: 50 + 300 - 400 }, // Bottom right
+        { x: -400 + 300, y: 50 + 300 - 400 }, // Bottom
+        { x: -400 + 250, y: 50 + 250 - 400 }, // Left curve
+        { x: -400 + 300, y: 50 + 200 - 400 }, // Middle connection
 
         // p
-        { x: -400 + 400, y: 200 - 400 }, // Top of p
-        { x: -400 + 400, y: 400 - 400 }, // Descender
-        { x: -400 + 400, y: 200 - 400 }, // Back to top
-        { x: -400 + 450, y: 150 - 400 }, // Top curve
-        { x: -400 + 500, y: 200 - 400 }, // Right curve
-        { x: -400 + 450, y: 250 - 400 }, // Bottom curve
-        { x: -400 + 400, y: 200 - 400 }, // Back to stem
+        { x: -400 + 400, y: 50 + 200 - 400 }, // Top of p
+        { x: -400 + 400, y: 50 + 400 - 400 }, // Descender
+        { x: -400 + 400, y: 50 + 200 - 400 }, // Back to top
+        { x: -400 + 450, y: 50 + 150 - 400 }, // Top curve
+        { x: -400 + 500, y: 50 + 200 - 400 }, // Right curve
+        { x: -400 + 450, y: 50 + 250 - 400 }, // Bottom curve
+        { x: -400 + 400, y: 50 + 200 - 400 }, // Back to stem
 
         // p
-        { x: -400 + 550, y: 200 - 400 }, // Top of second p
-        { x: -400 + 550, y: 400 - 400 }, // Descender
-        { x: -400 + 550, y: 200 - 400 }, // Back to top
-        { x: -400 + 600, y: 150 - 400 }, // Top curve
-        { x: -400 + 650, y: 200 - 400 }, // Right curve
-        { x: -400 + 600, y: 250 - 400 }, // Bottom curve
-        { x: -400 + 550, y: 200 - 400 }, // Back to stem
+        { x: -400 + 550, y: 50 + 200 - 400 }, // Top of second p
+        { x: -400 + 550, y: 50 + 400 - 400 }, // Descender
+        { x: -400 + 550, y: 50 + 200 - 400 }, // Back to top
+        { x: -400 + 600, y: 50 + 150 - 400 }, // Top curve
+        { x: -400 + 650, y: 50 + 200 - 400 }, // Right curve
+        { x: -400 + 600, y: 50 + 250 - 400 }, // Bottom curve
+        { x: -400 + 550, y: 50 + 200 - 400 }, // Back to stem
 
         // y
-        { x: -400 + 700, y: 200 - 400 }, // Top left of y
-        { x: -400 + 750, y: 300 - 400 }, // Middle point
-        { x: -400 + 800, y: 200 - 400 }, // Top right of y
-        { x: -400 + 750, y: 300 - 400 }, // Back to middle
-        { x: -400 + 750, y: 400 - 400 }, // Bottom descender
+        { x: -400 + 700, y: 50 + 200 - 400 }, // Top left of y
+        { x: -400 + 750, y: 50 + 300 - 400 }, // Middle point
+        { x: -400 + 800, y: 50 + 200 - 400 }, // Top right of y
+        { x: -400 + 750, y: 50 + 300 - 400 }, // Back to middle
+        { x: -400 + 750, y: 50 + 400 - 400 }, // Bottom descender
         // Next Line Second
-        { x: 500 - 500 + 800, y: -350 + 150 + 400 - 400 - 100 }, // Start at top
-        { x: 450 - 500 + 800, y: -350 + 100 + 400 - 400 - 100 }, // Start at top
-        { x: 400 - 500 + 800, y: -350 + 100 + 400 - 400 - 100 }, // Top left
-        { x: 350 - 500 + 800, y: -350 + 150 + 400 - 400 - 100 }, // Upper left curve
-        { x: 350 - 500 + 800, y: -350 + 200 + 400 - 400 - 100 }, // Left curve
-        { x: 400 - 500 + 800, y: -350 + 250 + 400 - 400 - 100 }, // Upper middle curve
-        { x: 450 - 500 + 800, y: -350 + 250 + 400 - 400 - 100 }, // Middle curve
-        { x: 500 - 500 + 800, y: -350 + 300 + 400 - 400 - 100 }, // Lower middle curve
-        { x: 500 - 500 + 800, y: -350 + 350 + 400 - 400 - 100 }, // Right curve
-        { x: 450 - 500 + 800, y: -350 + 400 + 400 - 400 - 100 }, // Bottom right curve
-        { x: 400 - 500 + 800, y: -350 + 400 + 400 - 400 - 100 }, // Bottom right curve
-        { x: 350 - 500 + 800, y: -350 + 350 + 400 - 400 - 100 }, // Bottom curve
-        // { x: 300  + 800- 500, y: -350+300 + 400 - 400 }, // Bottom left
+        { x: 500 - 500 + 800, y: 50 + -350 + 150 + 400 - 400 - 100 }, // Start at top
+        { x: 450 - 500 + 800, y: 50 + -350 + 100 + 400 - 400 - 100 }, // Start at top
+        { x: 400 - 500 + 800, y: 50 + -350 + 100 + 400 - 400 - 100 }, // Top left
+        { x: 350 - 500 + 800, y: 50 + -350 + 150 + 400 - 400 - 100 }, // Upper left curve
+        { x: 350 - 500 + 800, y: 50 + -350 + 200 + 400 - 400 - 100 }, // Left curve
+        { x: 400 - 500 + 800, y: 50 + -350 + 250 + 400 - 400 - 100 }, // Upper middle curve
+        { x: 450 - 500 + 800, y: 50 + -350 + 250 + 400 - 400 - 100 }, // Middle curve
+        { x: 500 - 500 + 800, y: 50 + -350 + 300 + 400 - 400 - 100 }, // Lower middle curve
+        { x: 500 - 500 + 800, y: 50 + -350 + 350 + 400 - 400 - 100 }, // Right curve
+        { x: 450 - 500 + 800, y: 50 + -350 + 400 + 400 - 400 - 100 }, // Bottom right curve
+        { x: 400 - 500 + 800, y: 50 + -350 + 400 + 400 - 400 - 100 }, // Bottom right curve
+        { x: 350 - 500 + 800, y: 50 + -350 + 350 + 400 - 400 - 100 }, // Bottom curve
+        // { x: 300  + 800- 500, y:50+ -350+300 + 400 - 400 }, // Bottom left
 
         // // Letter 'e'
-        { x: 25 + 800, y: -350 + 250 }, // Top left curve
-        { x: 125 + 800, y: -350 + 250 }, // Top left curve
-        { x: 100 + 800, y: -350 + 200 }, // Top right
-        { x: 50 + 800, y: -350 + 200 }, // Top edge
-        { x: 25 + 800, y: -350 + 250 }, // Top left curve
-        { x: 50 + 800, y: -350 + 300 }, // Left edge
-        { x: 100 + 800, y: -350 + 300 }, // Start
+        { x: 25 + 800, y: 50 + -350 + 250 }, // Top left curve
+        { x: 125 + 800, y: 50 + -350 + 250 }, // Top left curve
+        { x: 100 + 800, y: 50 + -350 + 200 }, // Top right
+        { x: 50 + 800, y: 50 + -350 + 200 }, // Top edge
+        { x: 25 + 800, y: 50 + -350 + 250 }, // Top left curve
+        { x: 50 + 800, y: 50 + -350 + 300 }, // Left edge
+        { x: 100 + 800, y: 50 + -350 + 300 }, // Start
 
         // Letter 'c'
-        // { x + 800: 250, y: -350+300 }, // Start
-        // { x + 800: 200, y: -350+300 }, // Left edge
-        // { x + 800: 175, y: -350+250 }, // Top left curve
-        { x: 200 + 800, y: -350 + -100 + 300 }, // Top right
-        { x: 250 + 800, y: -350 + -100 + 300 }, // Top edge
-        { x: 200 + 800, y: -350 + -100 + 300 }, // Top right
-        { x: 175 + 800, y: -350 + -100 + 350 }, // Bottom left curve
-        { x: 200 + 800, y: -350 + -100 + 400 }, // Bottom edge
-        { x: 250 + 800, y: -350 + -100 + 400 }, // Bottom right
+        // { x + 800: 250, y:50+ -350+300 }, // Start
+        // { x + 800: 200, y:50+ -350+300 }, // Left edge
+        // { x + 800: 175, y:50+ -350+250 }, // Top left curve
+        { x: 200 + 800, y: 50 + -350 + -100 + 300 }, // Top right
+        { x: 250 + 800, y: 50 + -350 + -100 + 300 }, // Top edge
+        { x: 200 + 800, y: 50 + -350 + -100 + 300 }, // Top right
+        { x: 175 + 800, y: 50 + -350 + -100 + 350 }, // Bottom left curve
+        { x: 200 + 800, y: 50 + -350 + -100 + 400 }, // Bottom edge
+        { x: 250 + 800, y: 50 + -350 + -100 + 400 }, // Bottom right
 
         // Letter 'o'
-        { x: 125 + 250 + 800, y: -350 + -100 + 300 }, // Top edge
-        { x: 125 + 200 + 800, y: -350 + -100 + 300 }, // Top right
-        { x: 125 + 175 + 800, y: -350 + -100 + 350 }, // Bottom left curve
-        { x: 125 + 200 + 800, y: -350 + -100 + 400 }, // Bottom edge
-        { x: 125 + 250 + 800, y: -350 + -100 + 400 }, // Bottom right
-        { x: 125 + 275 + 800, y: -350 + -100 + 350 }, // Bottom left curve
-        { x: 125 + 250 + 800, y: -350 + -100 + 300 }, // Top edge
+        { x: 125 + 250 + 800, y: 50 + -350 + -100 + 300 }, // Top edge
+        { x: 125 + 200 + 800, y: 50 + -350 + -100 + 300 }, // Top right
+        { x: 125 + 175 + 800, y: 50 + -350 + -100 + 350 }, // Bottom left curve
+        { x: 125 + 200 + 800, y: 50 + -350 + -100 + 400 }, // Bottom edge
+        { x: 125 + 250 + 800, y: 50 + -350 + -100 + 400 }, // Bottom right
+        { x: 125 + 275 + 800, y: 50 + -350 + -100 + 350 }, // Bottom left curve
+        { x: 125 + 250 + 800, y: 50 + -350 + -100 + 300 }, // Top edge
 
         // Letter 'n'
-        { x: 450 + 800, y: -350 + 300 }, // Start bottom
-        { x: 450 + 800, y: -350 + 200 }, // Vertical line up
-        { x: 450 + 800, y: -350 + 250 }, // Top curve start
-        { x: 475 + 800, y: -350 + 200 }, // Top curve
-        { x: 500 + 800, y: -350 + 200 }, // Top right
-        { x: 525 + 800, y: -350 + 250 }, // Right curve
-        { x: 525 + 800, y: -350 + 300 }, // Right vertical
-        // { x + 800: 550, y: -350+400 }, // Bottom right
+        { x: 450 + 800, y: 50 + -350 + 300 }, // Start bottom
+        { x: 450 + 800, y: 50 + -350 + 200 }, // Vertical line up
+        { x: 450 + 800, y: 50 + -350 + 250 }, // Top curve start
+        { x: 475 + 800, y: 50 + -350 + 200 }, // Top curve
+        { x: 500 + 800, y: 50 + -350 + 200 }, // Top right
+        { x: 525 + 800, y: 50 + -350 + 250 }, // Right curve
+        { x: 525 + 800, y: 50 + -350 + 300 }, // Right vertical
+        // { x + 800: 550, y:50+ -350+400 }, // Bottom right
 
         // Letter 'd'
-        { x: 400 + 250 + 800, y: -350 + -100 + 300 }, // Top edge
-        { x: 400 + 200 + 800, y: -350 + -100 + 300 }, // Top right
-        { x: 400 + 175 + 800, y: -350 + -100 + 350 }, // Bottom left curve
-        { x: 400 + 200 + 800, y: -350 + -100 + 400 }, // Bottom edge
-        { x: 400 + 250 + 800, y: -350 + -100 + 400 }, // Bottom right
-        { x: 400 + 250 + 800, y: -350 + -100 + 200 }, // Bottom right
-        { x: 400 + 250 + 800, y: -350 + -100 + 350 }, // Bottom right
-        { x: 425 + 250 + 800, y: -350 + -100 + 400 }, // Bottom right
+        { x: 400 + 250 + 800, y: 50 + -350 + -100 + 300 }, // Top edge
+        { x: 400 + 200 + 800, y: 50 + -350 + -100 + 300 }, // Top right
+        { x: 400 + 175 + 800, y: 50 + -350 + -100 + 350 }, // Bottom left curve
+        { x: 400 + 200 + 800, y: 50 + -350 + -100 + 400 }, // Bottom edge
+        { x: 400 + 250 + 800, y: 50 + -350 + -100 + 400 }, // Bottom right
+        { x: 400 + 250 + 800, y: 50 + -350 + -100 + 200 }, // Bottom right
+        { x: 400 + 250 + 800, y: 50 + -350 + -100 + 350 }, // Bottom right
+        { x: 425 + 250 + 800, y: 50 + -350 + -100 + 400 }, // Bottom right
 
         // Next Line Second
-        { x: 250 + 500 - 500, y: 50 + 150 + 400 - 400 - 100 }, // Start at top
-        { x: 250 + 450 - 500, y: 50 + 100 + 400 - 400 - 100 }, // Start at top
-        { x: 250 + 400 - 500, y: 50 + 100 + 400 - 400 - 100 }, // Top left
-        { x: 250 + 350 - 500, y: 50 + 150 + 400 - 400 - 100 }, // Upper left curve
-        { x: 250 + 350 - 500, y: 50 + 200 + 400 - 400 - 100 }, // Left curve
-        { x: 250 + 400 - 500, y: 50 + 250 + 400 - 400 - 100 }, // Upper middle curve
-        { x: 250 + 450 - 500, y: 50 + 250 + 400 - 400 - 100 }, // Middle curve
-        { x: 250 + 500 - 500, y: 50 + 300 + 400 - 400 - 100 }, // Lower middle curve
-        { x: 250 + 500 - 500, y: 50 + 350 + 400 - 400 - 100 }, // Right curve
-        { x: 250 + 450 - 500, y: 50 + 400 + 400 - 400 - 100 }, // Bottom right curve
-        { x: 250 + 400 - 500, y: 50 + 400 + 400 - 400 - 100 }, // Bottom right curve
-        { x: 250 + 350 - 500, y: 50 + 350 + 400 - 400 - 100 }, // Bottom curve
-        // { x: 250+ 300 - 500, y: 50+ 300 + 400 - 400 }, // Bottom left
+        { x: 250 + 500 - 500, y: 50 + 50 + 150 + 400 - 400 - 100 }, // Start at top
+        { x: 250 + 450 - 500, y: 50 + 50 + 100 + 400 - 400 - 100 }, // Start at top
+        { x: 250 + 400 - 500, y: 50 + 50 + 100 + 400 - 400 - 100 }, // Top left
+        { x: 250 + 350 - 500, y: 50 + 50 + 150 + 400 - 400 - 100 }, // Upper left curve
+        { x: 250 + 350 - 500, y: 50 + 50 + 200 + 400 - 400 - 100 }, // Left curve
+        { x: 250 + 400 - 500, y: 50 + 50 + 250 + 400 - 400 - 100 }, // Upper middle curve
+        { x: 250 + 450 - 500, y: 50 + 50 + 250 + 400 - 400 - 100 }, // Middle curve
+        { x: 250 + 500 - 500, y: 50 + 50 + 300 + 400 - 400 - 100 }, // Lower middle curve
+        { x: 250 + 500 - 500, y: 50 + 50 + 350 + 400 - 400 - 100 }, // Right curve
+        { x: 250 + 450 - 500, y: 50 + 50 + 400 + 400 - 400 - 100 }, // Bottom right curve
+        { x: 250 + 400 - 500, y: 50 + 50 + 400 + 400 - 400 - 100 }, // Bottom right curve
+        { x: 250 + 350 - 500, y: 50 + 50 + 350 + 400 - 400 - 100 }, // Bottom curve
+        // { x: 250+ 300 - 500, y:50+ 50+ 300 + 400 - 400 }, // Bottom left
 
         // // Letter 'e'
-        { x: 250 + 25, y: 50 + 250 }, // Top left curve
-        { x: 250 + 125, y: 50 + 250 }, // Top left curve
-        { x: 250 + 100, y: 50 + 200 }, // Top right
-        { x: 250 + 50, y: 50 + 200 }, // Top edge
-        { x: 250 + 25, y: 50 + 250 }, // Top left curve
-        { x: 250 + 50, y: 50 + 300 }, // Left edge
-        { x: 250 + 100, y: 50 + 300 }, // Start
+        { x: 250 + 25, y: 50 + 50 + 250 }, // Top left curve
+        { x: 250 + 125, y: 50 + 50 + 250 }, // Top left curve
+        { x: 250 + 100, y: 50 + 50 + 200 }, // Top right
+        { x: 250 + 50, y: 50 + 50 + 200 }, // Top edge
+        { x: 250 + 25, y: 50 + 50 + 250 }, // Top left curve
+        { x: 250 + 50, y: 50 + 50 + 300 }, // Left edge
+        { x: 250 + 100, y: 50 + 50 + 300 }, // Start
 
         // Letter 'c'
-        // { x: 250+ 250, y: 50+ 300 }, // Start
-        // { x: 250+ 200, y: 50+ 300 }, // Left edge
-        // { x: 250+ 175, y: 50+ 250 }, // Top left curve
-        { x: 250 + 200, y: 50 + -100 + 300 }, // Top right
-        { x: 250 + 250, y: 50 + -100 + 300 }, // Top edge
-        { x: 250 + 200, y: 50 + -100 + 300 }, // Top right
-        { x: 250 + 175, y: 50 + -100 + 350 }, // Bottom left curve
-        { x: 250 + 200, y: 50 + -100 + 400 }, // Bottom edge
-        { x: 250 + 250, y: 50 + -100 + 400 }, // Bottom right
+        // { x: 250+ 250, y:50+ 50+ 300 }, // Start
+        // { x: 250+ 200, y:50+ 50+ 300 }, // Left edge
+        // { x: 250+ 175, y:50+ 50+ 250 }, // Top left curve
+        { x: 250 + 200, y: 50 + 50 + -100 + 300 }, // Top right
+        { x: 250 + 250, y: 50 + 50 + -100 + 300 }, // Top edge
+        { x: 250 + 200, y: 50 + 50 + -100 + 300 }, // Top right
+        { x: 250 + 175, y: 50 + 50 + -100 + 350 }, // Bottom left curve
+        { x: 250 + 200, y: 50 + 50 + -100 + 400 }, // Bottom edge
+        { x: 250 + 250, y: 50 + 50 + -100 + 400 }, // Bottom right
 
         // Letter 'o'
-        { x: 250 + 125 + 250, y: 50 + -100 + 300 }, // Top edge
-        { x: 250 + 125 + 200, y: 50 + -100 + 300 }, // Top right
-        { x: 250 + 125 + 175, y: 50 + -100 + 350 }, // Bottom left curve
-        { x: 250 + 125 + 200, y: 50 + -100 + 400 }, // Bottom edge
-        { x: 250 + 125 + 250, y: 50 + -100 + 400 }, // Bottom right
-        { x: 250 + 125 + 275, y: 50 + -100 + 350 }, // Bottom left curve
-        { x: 250 + 125 + 250, y: 50 + -100 + 300 }, // Top edge
+        { x: 250 + 125 + 250, y: 50 + 50 + -100 + 300 }, // Top edge
+        { x: 250 + 125 + 200, y: 50 + 50 + -100 + 300 }, // Top right
+        { x: 250 + 125 + 175, y: 50 + 50 + -100 + 350 }, // Bottom left curve
+        { x: 250 + 125 + 200, y: 50 + 50 + -100 + 400 }, // Bottom edge
+        { x: 250 + 125 + 250, y: 50 + 50 + -100 + 400 }, // Bottom right
+        { x: 250 + 125 + 275, y: 50 + 50 + -100 + 350 }, // Bottom left curve
+        { x: 250 + 125 + 250, y: 50 + 50 + -100 + 300 }, // Top edge
 
         // Letter 'n'
-        { x: 250 + 450, y: 50 + 300 }, // Start bottom
-        { x: 250 + 450, y: 50 + 200 }, // Vertical line up
-        { x: 250 + 450, y: 50 + 250 }, // Top curve start
-        { x: 250 + 475, y: 50 + 200 }, // Top curve
-        { x: 250 + 500, y: 50 + 200 }, // Top right
-        { x: 250 + 525, y: 50 + 250 }, // Right curve
-        { x: 250 + 525, y: 50 + 300 }, // Right vertical
-        // { x: 250+ 550, y: 50+ 400 }, // Bottom right
+        { x: 250 + 450, y: 50 + 50 + 300 }, // Start bottom
+        { x: 250 + 450, y: 50 + 50 + 200 }, // Vertical line up
+        { x: 250 + 450, y: 50 + 50 + 250 }, // Top curve start
+        { x: 250 + 475, y: 50 + 50 + 200 }, // Top curve
+        { x: 250 + 500, y: 50 + 50 + 200 }, // Top right
+        { x: 250 + 525, y: 50 + 50 + 250 }, // Right curve
+        { x: 250 + 525, y: 50 + 50 + 300 }, // Right vertical
+        // { x: 250+ 550, y:50+ 50+ 400 }, // Bottom right
 
         // Letter 'd'
-        { x: 250 + 400 + 250, y: 50 + -100 + 300 }, // Top edge
-        { x: 250 + 400 + 200, y: 50 + -100 + 300 }, // Top right
-        { x: 250 + 400 + 175, y: 50 + -100 + 350 }, // Bottom left curve
-        { x: 250 + 400 + 200, y: 50 + -100 + 400 }, // Bottom edge
-        { x: 250 + 400 + 250, y: 50 + -100 + 400 }, // Bottom right
-        { x: 250 + 400 + 250, y: 50 + -100 + 200 }, // Bottom right
-        { x: 250 + 400 + 250, y: 50 + -100 + 350 }, // Bottom right
-        { x: 250 + 425 + 250, y: 50 + -100 + 400 }, // Bottom right
+        { x: 250 + 400 + 250, y: 50 + 50 + -100 + 300 }, // Top edge
+        { x: 250 + 400 + 200, y: 50 + 50 + -100 + 300 }, // Top right
+        { x: 250 + 400 + 175, y: 50 + 50 + -100 + 350 }, // Bottom left curve
+        { x: 250 + 400 + 200, y: 50 + 50 + -100 + 400 }, // Bottom edge
+        { x: 250 + 400 + 250, y: 50 + 50 + -100 + 400 }, // Bottom right
+        { x: 250 + 400 + 250, y: 50 + 50 + -100 + 200 }, // Bottom right
+        { x: 250 + 400 + 250, y: 50 + 50 + -100 + 350 }, // Bottom right
+        { x: 250 + 425 + 250, y: 50 + 50 + -100 + 400 }, // Bottom right
 
-        { x: 250 + 425 - 600, y: 50 + -100 + 150 }, // Bottom right
-        { x: 250 + 425 + 300, y: 50 + -100 + 250 }, // Bottom right
-        { x: 250 + 425 - 600, y: 50 + -100 + 250 }, // Bottom right
-        { x: 250 + 425 + 300, y: 50 + -100 + 300 }, // Bottom right
-        { x: 250 + 425 - 600, y: 50 + -100 + 300 }, // Bottom right
-        { x: 250 + 425 + 300, y: 50 + -100 + 350 }, // Bottom right
-        { x: 250 + 425 - 600, y: 50 + -100 + 350 }, // Bottom right
-        { x: 250 + 425 + 300, y: 50 + -100 + 400 }, // Bottom right
-        { x: 250 + 425 - 600, y: 50 + -100 + 450 }, // Bottom right
+        { x: 250 + 425 - 600, y: 50 + 50 + -100 + 150 }, // Bottom right
+        { x: 250 + 425 + 300, y: 50 + 50 + -100 + 250 }, // Bottom right
+        { x: 250 + 425 - 600, y: 50 + 50 + -100 + 250 }, // Bottom right
+        { x: 250 + 425 + 300, y: 50 + 50 + -100 + 300 }, // Bottom right
+        { x: 250 + 425 - 600, y: 50 + 50 + -100 + 300 }, // Bottom right
+        { x: 250 + 425 + 300, y: 50 + 50 + -100 + 350 }, // Bottom right
+        { x: 250 + 425 - 600, y: 50 + 50 + -100 + 350 }, // Bottom right
+        { x: 250 + 425 + 300, y: 50 + 50 + -100 + 400 }, // Bottom right
+        { x: 250 + 425 - 600, y: 50 + 50 + -100 + 450 }, // Bottom right
 
-        { x: 100, y: 350 + 100 }, // Start top left of Y
-        { x: 150, y: 350 + 200 }, // Center of Y
-        { x: 200, y: 350 + 100 }, // Top right of Y
-        { x: 150, y: 350 + 200 }, // Back to center of Y
-        { x: 150, y: 350 + 300 }, // Bottom of Y
+        { x: 100, y: 50 + 350 + 100 }, // Start top left of Y
+        { x: 150, y: 50 + 350 + 200 }, // Center of Y
+        { x: 200, y: 50 + 350 + 100 }, // Top right of Y
+        { x: 150, y: 50 + 350 + 200 }, // Back to center of Y
+        { x: 150, y: 50 + 350 + 300 }, // Bottom of Y
 
         // E
-        { x: 250, y: 350 + 100 }, // Move to top of E
-        { x: 350, y: 350 + 100 }, // Top horizontal line
-        { x: 250, y: 350 + 100 }, // Back to left
-        { x: 250, y: 350 + 200 }, // Down to middle
-        { x: 325, y: 350 + 200 }, // Middle horizontal line
-        { x: 250, y: 350 + 200 }, // Back to left
-        { x: 250, y: 350 + 300 }, // Down to bottom
-        { x: 350, y: 350 + 300 }, // Bottom horizontal line
+        { x: 250, y: 50 + 350 + 100 }, // Move to top of E
+        { x: 350, y: 50 + 350 + 100 }, // Top horizontal line
+        { x: 250, y: 50 + 350 + 100 }, // Back to left
+        { x: 250, y: 50 + 350 + 200 }, // Down to middle
+        { x: 325, y: 50 + 350 + 200 }, // Middle horizontal line
+        { x: 250, y: 50 + 350 + 200 }, // Back to left
+        { x: 250, y: 50 + 350 + 300 }, // Down to bottom
+        { x: 350, y: 50 + 350 + 300 }, // Bottom horizontal line
 
         // A
-        { x: 400, y: 350 + 300 }, // Bottom left of A
-        { x: 450, y: 350 + 100 }, // Peak of A
-        { x: 500, y: 350 + 300 }, // Bottom right of A
-        { x: 425, y: 350 + 200 }, // Left point for horizontal line
-        { x: 475, y: 350 + 200 }, // Right point for horizontal line
+        { x: 400, y: 50 + 350 + 300 }, // Bottom left of A
+        { x: 450, y: 50 + 350 + 100 }, // Peak of A
+        { x: 500, y: 50 + 350 + 300 }, // Bottom right of A
+        { x: 425, y: 50 + 350 + 200 }, // Left point for horizontal line
+        { x: 475, y: 50 + 350 + 200 }, // Right point for horizontal line
 
         // R
-        { x: 550, y: 350 + 100 }, // Top of R
-        { x: 550, y: 350 + 300 }, // Down vertical line
-        { x: 550, y: 350 + 100 }, // Back to top
-        { x: 650, y: 350 + 100 }, // Top right
-        { x: 650, y: 350 + 175 }, // Curve right
-        { x: 550, y: 350 + 200 }, // Back to center
-        { x: 650, y: 350 + 300 }, // Bottom right diagonal
+        { x: 550, y: 50 + 350 + 100 }, // Top of R
+        { x: 550, y: 50 + 350 + 300 }, // Down vertical line
+        { x: 550, y: 50 + 350 + 100 }, // Back to top
+        { x: 650, y: 50 + 350 + 100 }, // Top right
+        { x: 650, y: 50 + 350 + 175 }, // Curve right
+        { x: 550, y: 50 + 350 + 200 }, // Back to center
+        { x: 650, y: 50 + 350 + 300 }, // Bottom right diagonal
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
 
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Start at center
-        { x: 500 + 500, y: 350 + -100 + 200 }, // Top right curve
-        { x: 500 + 600, y: 350 + -100 + 300 }, // Right peak
-        { x: 500 + 500, y: 350 + -100 + 400 }, // Bottom right
-        { x: 500 + 400, y: 350 + -100 + 500 }, // Bottom point
-        { x: 500 + 300, y: 350 + -100 + 400 }, // Bottom left
-        { x: 500 + 200, y: 350 + -100 + 300 }, // Left peak
-        { x: 500 + 300, y: 350 + -100 + 200 }, // Top left curve
-        { x: 500 + 400, y: 350 + -100 + 300 }, // Back to center
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Start at center
+        { x: 500 + 500, y: 50 + 350 + -100 + 200 }, // Top right curve
+        { x: 500 + 600, y: 50 + 350 + -100 + 300 }, // Right peak
+        { x: 500 + 500, y: 50 + 350 + -100 + 400 }, // Bottom right
+        { x: 500 + 400, y: 50 + 350 + -100 + 500 }, // Bottom point
+        { x: 500 + 300, y: 50 + 350 + -100 + 400 }, // Bottom left
+        { x: 500 + 200, y: 50 + 350 + -100 + 300 }, // Left peak
+        { x: 500 + 300, y: 50 + 350 + -100 + 200 }, // Top left curve
+        { x: 500 + 400, y: 50 + 350 + -100 + 300 }, // Back to center
       ];
 
       //   positions = [
@@ -371,15 +371,15 @@
       //   ];
       //   // Predefined path as a heart shape
       //   const positions = [
-      //     { x: 400, y: 300 }, // Start at center
-      //     { x: 500, y: 200 }, // Top right curve
-      //     { x: 600, y: 300 }, // Right peak
-      //     { x: 500, y: 400 }, // Bottom right
-      //     { x: 400, y: 500 }, // Bottom point
-      //     { x: 300, y: 400 }, // Bottom left
-      //     { x: 200, y: 300 }, // Left peak
-      //     { x: 300, y: 200 }, // Top left curve
-      //     { x: 400, y: 300 }, // Back to center
+      //     { x: 400, y:50+ 300 }, // Start at center
+      //     { x: 500, y:50+ 200 }, // Top right curve
+      //     { x: 600, y:50+ 300 }, // Right peak
+      //     { x: 500, y:50+ 400 }, // Bottom right
+      //     { x: 400, y:50+ 500 }, // Bottom point
+      //     { x: 300, y:50+ 400 }, // Bottom left
+      //     { x: 200, y:50+ 300 }, // Left peak
+      //     { x: 300, y:50+ 200 }, // Top left curve
+      //     { x: 400, y:50+ 300 }, // Back to center
       //   ];
 
       let currentPosition = 0;
@@ -472,16 +472,6 @@
         document.querySelectorAll(".line").forEach((line) => line.remove());
         centerPattern();
       });
-
-      for (let i = 0; i < positions.length - 1; i++) {
-        console.log("hi?");
-        drawLine(
-          positions[i].x,
-          positions[i].y,
-          positions[i + 1].x,
-          positions[i + 1].y
-        );
-      }
     </script>
   </body>
 </html>
